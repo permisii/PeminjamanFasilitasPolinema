@@ -89,9 +89,12 @@
                     diskon = parseRupiah($event.target.value);
                     $event.target.value = formatRupiah(diskon);
                 ">
-
             </div>
-            {{-- 
+            <div class="mb-4">
+                    <x-input-label for="diskon">Unggah Surat Persetujuan Direktur</x-input-label>
+                    <input type="file" name="surat_persetujuan" class="border p-2 rounded w-full">
+            </div>
+            {{--
             <div class="mb-4 flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4">
                 <label for="setuju_sk" class="text-sm text-gray-700">
                     Saya telah membaca dan menyetujui <span class="font-semibold">Syarat & Ketentuan</span> peminjaman
