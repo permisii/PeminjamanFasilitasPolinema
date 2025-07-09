@@ -31,7 +31,7 @@
 
 
         <div class="mt-4">
-            <x-primary-button>
+            <x-primary-button type="submit">
                 {{ __('Verifikasi OTP') }}
             </x-primary-button>
         </div>
